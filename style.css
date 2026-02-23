@@ -128,10 +128,10 @@ li {
 }
 
 .profile-photo {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
-    border-radius: var(--radius-lg);
+    border-radius: 8px;
     box-shadow: 0 8px 40px var(--blue-shadow), 0 0 0 6px rgba(26, 111, 212, 0.08);
     transition: box-shadow var(--transition), transform var(--transition);
 }
