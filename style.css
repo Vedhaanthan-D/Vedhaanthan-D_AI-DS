@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* ─────────────────────────────────────────
-   CSS Custom Properties  (Blue Theme)
-───────────────────────────────────────── */
+
 :root {
     --blue-primary: #1a6fd4;
     --blue-dark: #1258b0;
@@ -21,7 +19,7 @@
     --transition: 0.3s ease;
 }
 
-/* ─── Reset ─── */
+
 *,
 *::before,
 *::after {
@@ -40,9 +38,7 @@ body {
     color: var(--text-dark);
 }
 
-/* ─────────────────────────────────────────
-   Navbar – Sticky Glassmorphism
-───────────────────────────────────────── */
+
 .nav {
     position: sticky;
     top: 0;
@@ -111,9 +107,7 @@ li {
     width: 100%;
 }
 
-/* ─────────────────────────────────────────
-   Hero Section
-───────────────────────────────────────── */
+
 .hero {
     background: radial-gradient(ellipse at 70% 50%, rgba(26, 111, 212, 0.08) 0%, transparent 70%),
         linear-gradient(160deg, #eef4fd 0%, var(--bg-body) 60%);
@@ -176,7 +170,7 @@ li {
     max-width: 580px;
 }
 
-/* Resume Button */
+
 .Resume-btn {
     display: inline-flex;
     align-items: center;
@@ -207,7 +201,6 @@ a {
     text-decoration: none;
 }
 
-/* Contact Info in Hero */
 .contact-info {
     margin-bottom: 8px;
 }
@@ -226,7 +219,6 @@ a {
     width: 16px;
 }
 
-/* Social Buttons */
 .social-links {
     margin-top: 22px;
     display: flex;
@@ -255,9 +247,7 @@ a {
     box-shadow: 0 4px 14px var(--blue-shadow);
 }
 
-/* ─────────────────────────────────────────
-   Section Title (shared)
-───────────────────────────────────────── */
+
 .section-title {
     font-size: 34px;
     font-weight: 700;
@@ -279,9 +269,7 @@ a {
     background: linear-gradient(90deg, var(--blue-primary), #5ba4f5);
 }
 
-/* ─────────────────────────────────────────
-   Education – Timeline Style
-───────────────────────────────────────── */
+
 .education {
     max-width: 1200px;
     margin: 50px auto;
@@ -346,9 +334,7 @@ a {
     line-height: 1.6;
 }
 
-/* ─────────────────────────────────────────
-   Skills – Pill Tag Grid
-───────────────────────────────────────── */
+
 .skills {
     max-width: 1200px;
     margin: 50px auto;
@@ -406,9 +392,7 @@ a {
     box-shadow: 0 4px 12px var(--blue-shadow);
 }
 
-/* ─────────────────────────────────────────
-   Projects
-───────────────────────────────────────── */
+
 .projects {
     max-width: 1200px;
     margin: 50px auto;
@@ -491,9 +475,7 @@ a {
     display: block;
 }
 
-/* ─────────────────────────────────────────
-   Experience
-───────────────────────────────────────── */
+
 .experience {
     max-width: 1200px;
     margin: 50px auto;
@@ -604,9 +586,7 @@ a {
     margin-bottom: 0;
 }
 
-/* ─────────────────────────────────────────
-   Contact
-───────────────────────────────────────── */
+
 .contact {
     max-width: 620px;
     margin: 60px auto;
@@ -687,9 +667,7 @@ a {
     box-shadow: 0 6px 20px var(--blue-glow);
 }
 
-/* ─────────────────────────────────────────
-   Footer
-───────────────────────────────────────── */
+
 .footer {
     background: linear-gradient(135deg, #0f1a2e, #1a3055);
     color: rgba(255, 255, 255, 0.5);
@@ -728,9 +706,7 @@ a {
     transform: translateY(-3px);
 }
 
-/* ─────────────────────────────────────────
-   Scroll margin for sticky nav offset
-───────────────────────────────────────── */
+
 #home,
 #skills,
 #projects,
